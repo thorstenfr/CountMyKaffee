@@ -3,22 +3,30 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
-  
-  .container {
+    background-color: #f0f0f0;
+}
+
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  #click-button {
+}
+
+#click-button {
     font-size: 3em;
     padding: 1em 2em;
-  }
-  
-  #click-count {
+}
+
+#click-count {
     font-size: 5em;
     margin-bottom: 1em;
     text-align: center;
+}
+button {
+    color: #fff; /* text color */
+    background-color: #007bff; /* background color */
+    border: none; /* remove button border */
+    padding: 10px 20px; /* add padding to button */
+    border-radius: 5px; /* add rounded corners to button */
   }
   
